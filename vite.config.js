@@ -12,3 +12,4 @@ export default defineConfig({
         }),
     ],
 });
+// aca se expone lo que visualizara el usuario

@@ -1,0 +1,25 @@
+composer create-project laravel/laravel 'nombre del proyecto': crea un poryecto a partir del comando 
+composer
+
+laravel new 'nombre del proyecto': crea un proyecto
+
+php -S 'puerto en cuestion': con este comando podras ejecutar un proyecto en laravel.
+
+una alternativa a este comando puede ser: php artisan serve
+
+php artisan: este comando expone todos los comando que podemos hacer con artisan
+
+php artisan 'comando en cuestion' --help: nos expone informacion de un comando en especifico
+
+php artisan migrate: este comando permite ejecutar la migraciones ya establecidas en el proyecto
+php artisan make:migration create_'nombre de la tabla'_table: crea una migracion
+
+php artisan make:model 'nombre del modelo': crea un modelo 
+php artisan make:model 'nombre del modelo' -fc: crea un modelo junto al controller y el factory
+
+php artisan migrate:fresh --seed: refresca la migracion ya hecha con nuevos records establecido en los seeders
+
+composer require laravel/breeze --dev: este comando nos permite bajar el paquete 'breeze', el cual posteriormente nos habilita el modula de 
+inicializacion
+
+php artisan route:list: este comando nos permitira ver las rutas de nuestro proyecto
